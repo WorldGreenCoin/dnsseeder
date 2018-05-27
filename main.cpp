@@ -400,8 +400,8 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"80.211.225.20", ""};
-static const string testnet_seeds[] = {"80.211.225.20", ""};
+static const string mainnet_seeds[] = {"80.211.31.201", ""};
+static const string testnet_seeds[] = {"80.211.31.201", ""};
 static const string *seeds = mainnet_seeds;
 
 extern "C" void* ThreadSeeder(void*) {
